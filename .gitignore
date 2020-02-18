@@ -1,0 +1,29 @@
+/dist/
+/nbdist/
+/nbbuild/
+### VS Code ###
+/nbproject/private/
+.gradle/
+!**/src/main/**
+!gradle/wrapper/gradle-wrapper.jar
+/.nb-gradle/
+.vscode/
+hs_err_pid*.log
+Dockerfile.web
+*.iws
+build/
+out/
+### IntelliJ IDEA ###
+*.ipr
+**.iml
+.idea
+# GYG
+/application.yml
+.gygdev-dc.yml
+/.gygdev-dc.yml
+/.gygdev_generated
+/.config
+/.secrets
+/.build.env
+# MacOS
+.DS_Store

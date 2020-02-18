@@ -1,0 +1,11 @@
+subprojects {
+    group = 'br.com.leandroferreira'
+    version = '0.0.1'
+
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}

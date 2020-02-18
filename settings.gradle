@@ -1,0 +1,4 @@
+rootProject.name = 'arrow-experiments'
+include 'experiments-core'
+include 'experiments-run'
+
