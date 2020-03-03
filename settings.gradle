@@ -1,4 +1,6 @@
 rootProject.name = 'arrow-experiments'
 include 'experiments-core'
 include 'experiments-run'
+include 'experiments-rx'
+include 'experiments-reactor'
 
