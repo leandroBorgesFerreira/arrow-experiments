@@ -33,7 +33,7 @@ private fun handleSuccess(result: List<Experiment>) {
 }
 
 private fun foldExperiments(experiments: List<Experiment>): String =
-    experiments.foldRight("", { exp, acc -> "${exp.id} $acc"})
+    experiments.foldRight("", { exp, acc -> "${exp.id} $acc" })
 
 private fun handleFailure(throwable: Throwable) {
     println("Something when wrong o.O: ${throwable.message}")
@@ -46,7 +46,7 @@ private fun getRetrofit(): Retrofit =
         .client(provideHttpClient())
         .build()
 
-private fun getMoshi() = MoshiConverterFactory.create(
+private fun getMoshi(): MoshiConverterFactory = MoshiConverterFactory.create(
     Moshi.Builder()
         .add(KotlinJsonAdapterFactory())
         .build()
